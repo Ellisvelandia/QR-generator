@@ -7,9 +7,11 @@ const onGenerateSubmit = (e) => {
   const url = document.getElementById("url").value;
   const size = document.getElementById("size").value;
 
-  if (url === "") {
-    alert("Please enter a URL");
+
+  if (url === '') {
+    alert ('Please enter a URL')
   }
 };
 
-form.addEventListener("submit", onGenerateSubmit);
+
+form.addEventListener
