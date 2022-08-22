@@ -22,6 +22,4 @@ const hideSpinner = () => {
   document.getElementById("spinner").style.display = "none";
 };
 
-hideSpinner();
-
 form.addEventListener("submit", onGenerateSubmit);

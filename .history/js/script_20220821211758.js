@@ -9,19 +9,13 @@ const onGenerateSubmit = (e) => {
 
   if (url === "") {
     alert("Please enter a URL");
-  } else {
-    showSpinner();
+  }else {
+
   }
 };
 
 const showSpinner = () => {
-  document.getElementById("spinner").style.display = "block";
-};
-
-const hideSpinner = () => {
-  document.getElementById("spinner").style.display = "none";
-};
-
-hideSpinner();
+  document.getElementById('spinner')
+}
 
 form.addEventListener("submit", onGenerateSubmit);
